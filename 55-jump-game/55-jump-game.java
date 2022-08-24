@@ -1,5 +1,10 @@
 class Solution {
     public boolean canJump(int[] nums) {
+        // int n = nums.length;
+        // if(n == 1){
+        //     return true;
+        // }
+       
         if(nums.length == 1){
             return true;
         }
@@ -16,5 +21,10 @@ class Solution {
             
         }
         return false;
+        
+    
+        
+        
+        
     }
 }
