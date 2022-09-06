@@ -6,5 +6,9 @@ class Solution {
         }
         return n==1;
         
+        
+        //long x = (long)n;
+        // return (x & (x-1)) == 0;
+        
     }
 }
